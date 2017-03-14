@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D08CAA11E77C71D00D9DA3E /* NSString+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D08CAA01E77C71D00D9DA3E /* NSString+Digest.m */; };
 		5D310FA61E76973600B55AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D310FA51E76973600B55AF8 /* main.m */; };
 		5D310FA91E76973600B55AF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D310FA81E76973600B55AF8 /* AppDelegate.m */; };
 		5D310FAC1E76973600B55AF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D310FAB1E76973600B55AF8 /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D08CA9F1E77C71D00D9DA3E /* NSString+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Digest.h"; sourceTree = "<group>"; };
+		5D08CAA01E77C71D00D9DA3E /* NSString+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Digest.m"; sourceTree = "<group>"; };
 		5D310FA11E76973600B55AF8 /* SimpleModelProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleModelProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D310FA51E76973600B55AF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D310FA71E76973600B55AF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 		5D310FBB1E7697E200B55AF8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5D08CA9F1E77C71D00D9DA3E /* NSString+Digest.h */,
+				5D08CAA01E77C71D00D9DA3E /* NSString+Digest.m */,
 				5D310FBC1E7697E200B55AF8 /* MFKeyChain.h */,
 				5D310FBD1E7697E200B55AF8 /* MFKeyChain.m */,
 			);
@@ -254,6 +259,7 @@
 				5D310FAC1E76973600B55AF8 /* ViewController.m in Sources */,
 				5D310FDB1E7697E200B55AF8 /* AFSecurityPolicy.m in Sources */,
 				5D310FA91E76973600B55AF8 /* AppDelegate.m in Sources */,
+				5D08CAA11E77C71D00D9DA3E /* NSString+Digest.m in Sources */,
 				5D310FD61E7697E200B55AF8 /* MFKeyChain.m in Sources */,
 				5D310FDD1E7697E200B55AF8 /* AFURLResponseSerialization.m in Sources */,
 				5D310FA61E76973600B55AF8 /* main.m in Sources */,
@@ -420,6 +426,7 @@
 				5D310FBA1E76973600B55AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
